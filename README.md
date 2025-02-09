@@ -15,8 +15,31 @@ def additoin(x, y):
 
 additoin(10, 20)
 ```
+'''
+def addition(x, y):
 
 
+    try:
+        print("Addition:", x + y)
+
+    except NameError :
+        print ("the Variable is not defined")
+    except ValueError:
+        print ("You have provided an invaled value !!")
+    except TypeError:
+        print ("You have provided a wrong type !!")
+    except Exception as e:
+        print (e.__class__)
+        print ("Something went Wrong !!")
+    else:
+        print ("the operation is successful")
+
+
+
+
+
+addition (10,20)
+'''
 
 # Bonus
 ##  Temperature Converter
