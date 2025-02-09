@@ -16,11 +16,12 @@ additoin(10, 20)
 def additoin(x, y):
     x = 10
     y = 20
-    print("Addition:", x + b)
+    print("Addition:", x + y)
 
 #Task 1: Find what type of exception is raised
 try:
     additoin(10, 20)
-except NameError as ne:
-    print("NameError: ", ne)
+    print("The operation is successful")
+except NameError as ne: #Task 2: Handle the exception in try..except
+    print("A NameError occurred: ", ne)
     
