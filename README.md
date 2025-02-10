@@ -38,7 +38,7 @@ Description: In this exercise, you will practice using Python exceptions by crea
         - `TypeError`: raise this error  If the user enters an invalid unit, display an error message and prompt the user to try again.
     - e. If the conversion is successful, print the converted temperature and its unit.
 
-4. Call the `main` function to run the program. The user should be able to enter temperatures repeatedly until they enter a valid input.
+4. Call the `main` function to run the program. The user should be able to enter temperatures repeatedly until they enter a valid input.1
 
 Example Output:
 
